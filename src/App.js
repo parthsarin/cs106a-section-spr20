@@ -1,26 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import {
+  Container,
+  Navbar,
+  Nav
+} from 'react-bootstrap';
+
+import { LinkContainer } from 'react-router-bootstrap';
+
+import {
+  HashRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import About from './About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Router>
+        <Navbar variant="dark" className="navbar-theme">
+          <Nav className="ml-auto">
+            <RouterNavLink to="/">Home</RouterNavLink>
+            <RouterNavLink to="/about">About</RouterNavLink>
+          </Nav>
+        </Navbar>
+
+        <Container className="mt-2">
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <h1>Hello!</h1>
+            </Route>
+          </Switch>
+        </Container>
+      </Router>
     </div>
   );
 }
+
+const RouterNavLink = ({ children, ...props }) => (
+  <LinkContainer exact {...props}>
+    <Nav.Link active={false}>
+      {children}
+    </Nav.Link>
+  </LinkContainer>
+)
 
 export default App;
