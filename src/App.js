@@ -15,7 +15,9 @@ import {
   Route
 } from "react-router-dom";
 
-import About from './About';
+import Syllabus from './Syllabus';
+import Homepage from './Homepage';
+import Links from './Links';
 
 function App() {
   return (
@@ -24,17 +26,21 @@ function App() {
         <Navbar variant="dark" className="navbar-theme">
           <Nav className="ml-auto">
             <RouterNavLink to="/">Home</RouterNavLink>
-            <RouterNavLink to="/about">About</RouterNavLink>
+            <RouterNavLink to="/syllabus">Syllabus</RouterNavLink>
+            <RouterNavLink to="/links">Fun Links</RouterNavLink>
           </Nav>
         </Navbar>
 
         <Container className="mt-2">
           <Switch>
-            <Route path="/about">
-              <About />
+            <Route path="/syllabus">
+              <Syllabus />
+            </Route>
+            <Route path="/links">
+              <Links />
             </Route>
             <Route path="/">
-              <h1>Hello!</h1>
+              <Homepage />
             </Route>
           </Switch>
         </Container>

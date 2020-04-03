@@ -1,4 +1,29 @@
+/* NAVBAR */
 .navbar-theme {
     background: rgb(127, 49, 148);
     /*background: rgb(49, 86, 148);*/
+}
+
+/* HOME PAGE */
+#logo {
+    width: 150px;
+    max-width: 100%;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #ae00ff !important;
+}
+
+.nav-pills a.nav-link {
+    color: #ae00ff;
+}
+
+/* RAYS OF SUNSHINE */
+.links-list p {
+    margin-bottom: 0;
+}
+
+.links-last-child {
+    border-bottom-width: 0 !important;
 }
