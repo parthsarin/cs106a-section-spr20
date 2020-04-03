@@ -15,7 +15,7 @@ import {
   Route
 } from "react-router-dom";
 
-import Syllabus from './Syllabus';
+import Page from './Page';
 import Homepage from './Homepage';
 import Links from './Links';
 
@@ -33,12 +33,26 @@ function App() {
 
         <Container className="mt-2">
           <Switch>
-            <Route path="/syllabus">
-              <Syllabus />
-            </Route>
+            <Route
+              path="/syllabus"
+              render={
+                (props) => {
+                  return <Page pageRoute="Syllabus" {...props} />
+                }
+              }
+            />
             <Route path="/links">
               <Links />
             </Route>
+            <Route
+              path="/handout/:handoutSlug"
+              render={
+                (props) => {
+                  let slug = props.match.params.handoutSlug;
+                  return <Page pageRoute={`handouts/${slug}`} {...props} />
+                }
+              }
+            />
             <Route path="/">
               <Homepage />
             </Route>

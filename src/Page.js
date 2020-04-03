@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 import hljs from 'highlight.js';
 
-export default class Syllabus extends React.Component {
+export default class Page extends React.Component {
     constructor(props) {
         super(props);
 
@@ -13,9 +13,21 @@ export default class Syllabus extends React.Component {
             content: null
         };
     }
-    
+
     componentDidMount() {
-        fetch('./res/Syllabus.md')
+        this.fetchResources(this.props.pageRoute);
+    }
+
+    componentDidUpdate(prevProps) {
+        if (this.props.pageRoute !== prevProps.pageRoute) {
+            this.fetchResources(this.props.pageRoute);
+        }
+
+        this.updateCodeSyntaxHighlighting();
+    }
+    
+    fetchResources(path) {
+        fetch(`./res/${path}.md`)
         .then((res) => res.text())
         .then((response) => {
             this.setState({
@@ -23,10 +35,6 @@ export default class Syllabus extends React.Component {
                 content: response
             });
         });
-    }
-
-    componentDidUpdate() {
-        this.updateCodeSyntaxHighlighting();
     }
 
     updateCodeSyntaxHighlighting = () => {
