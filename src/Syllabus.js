@@ -13,7 +13,7 @@ export default class Syllabus extends React.Component {
         };
     }
     componentDidMount() {
-        fetch('/res/Syllabus.md')
+        fetch('./res/Syllabus.md')
         .then((res) => res.text())
         .then((response) => {
             this.setState({

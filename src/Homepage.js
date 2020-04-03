@@ -46,7 +46,7 @@ export default class Homepage extends React.Component {
              i <= this.durationInfo.lastWeek; 
              i++) {
 
-            const p = fetch(`/res/section/wk-${i}.md`); // content for week i
+            const p = fetch(`./res/section/wk-${i}.md`); // content for week i
             allPromises.push(p);
         }
 
