@@ -2,6 +2,7 @@ import React from 'react';
 
 import ReactMarkdown from 'react-markdown';
 
+import hljs from 'highlight.js';
 
 export default class Syllabus extends React.Component {
     constructor(props) {
@@ -12,6 +13,7 @@ export default class Syllabus extends React.Component {
             content: null
         };
     }
+    
     componentDidMount() {
         fetch('./res/Syllabus.md')
         .then((res) => res.text())
@@ -22,6 +24,16 @@ export default class Syllabus extends React.Component {
             });
         });
     }
+
+    componentDidUpdate() {
+        this.updateCodeSyntaxHighlighting();
+    }
+
+    updateCodeSyntaxHighlighting = () => {
+        document.querySelectorAll("pre code").forEach(block => {
+          hljs.highlightBlock(block);
+        });
+    };
 
     render() {
         if (this.state.isLoaded) {

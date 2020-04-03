@@ -4,6 +4,7 @@ import { Col, Row, Tab, Nav } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 
 import moment from 'moment';
+import hljs from 'highlight.js';
 
 import logo from './logo.png';
 
@@ -73,6 +74,16 @@ export default class Homepage extends React.Component {
             sectionContent
         });
     }
+
+    componentDidUpdate() {
+        this.updateCodeSyntaxHighlighting();
+    }
+
+    updateCodeSyntaxHighlighting = () => {
+        document.querySelectorAll("pre code").forEach(block => {
+          hljs.highlightBlock(block);
+        });
+    };
     
     render () {
         // navLinks
@@ -118,7 +129,6 @@ export default class Homepage extends React.Component {
             );
 
         }
-
 
         return (
             <div className="home">

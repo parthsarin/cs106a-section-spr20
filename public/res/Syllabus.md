@@ -4,6 +4,11 @@
     <b>Warning</b>: This syllabus has not been updated for Spring 2020 yet.
 </div>
 
+```python
+def main():
+    return 'a'
+```
+
 Section Overview
 ----------------
 
