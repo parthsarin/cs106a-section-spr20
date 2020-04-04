@@ -142,7 +142,14 @@ export default class Homepage extends React.Component {
                     </Col>
                     <Col className="align-self-center">
                         <h1>CS 106A: Programming Methodologies</h1>
-                        <p className="lead">Discussion Section</p>
+                        <p className="lead">
+                        Discussion Section<br />
+                        {/*Join URL:&nbsp;
+                        <a href="https://stanford.zoom.us/j/901970176">
+                            https://stanford.zoom.us/j/901970176
+                        </a>*/}
+                        </p>
+
                     </Col>
                 </Row>
                 <h2 className="mt-3">Schedule</h2>
