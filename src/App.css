@@ -12,11 +12,11 @@
 
 .nav-pills .nav-link.active {
     color: #fff;
-    background-color: #ae00ff !important;
+    background-color: rgb(127, 49, 148) !important;
 }
 
 .nav-pills a.nav-link {
-    color: #ae00ff;
+    color: rgb(127, 49, 148);
 }
 
 /* RAYS OF SUNSHINE */
