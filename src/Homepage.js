@@ -92,9 +92,13 @@ export default class Homepage extends React.Component {
              i <= this.durationInfo.lastWeek; 
              i++) {
 
+            const sectionNum = i - this.durationInfo.firstWeek + 1;
+
             navLinks.push(
                 <Nav.Item key={'nav-link-wk-' + i}>
-                  <Nav.Link eventKey={'wk-' + i}>Week {i}</Nav.Link>
+                  <Nav.Link eventKey={'wk-' + i}>
+                  Section {sectionNum} (Wk {i})
+                  </Nav.Link>
                 </Nav.Item>
             );
         }

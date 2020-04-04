@@ -1,4 +1,4 @@
-### Week 2
+### Section 1 (Week 2)
 
 This week, we talked about images.
 

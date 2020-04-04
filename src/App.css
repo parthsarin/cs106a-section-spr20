@@ -19,6 +19,52 @@
     color: rgb(127, 49, 148);
 }
 
+/* NO MATCH */
+.notfound {
+  width: 100%;
+}
+
+.notfound .notfound-404 {
+  height: 280px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 230px;
+  margin: 0px;
+  font-weight: 900;
+  background: url('./bg.jpg') no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.notfound h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .notfound .notfound-404 {
+      height: 200px;
+    }
+
+    .notfound .notfound-404 h1 {
+      font-size: 150px;
+    }
+
+    .notfound h2 {
+        font-size: 28px;
+    }
+}
+
 /* RAYS OF SUNSHINE */
 .links-list p {
     margin-bottom: 0;

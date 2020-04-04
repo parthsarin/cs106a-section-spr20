@@ -1,8 +1,9 @@
 import React from 'react';
 
 import ReactMarkdown from 'react-markdown';
-
 import hljs from 'highlight.js';
+
+import NoMatch from './NoMatch';
 
 export default class Page extends React.Component {
     constructor(props) {
@@ -10,7 +11,8 @@ export default class Page extends React.Component {
 
         this.state = {
             isLoaded: false,
-            content: null
+            content: null,
+            pageFetchError: false,
         };
     }
 
@@ -32,8 +34,15 @@ export default class Page extends React.Component {
         .then((response) => {
             this.setState({
                 isLoaded: true,
-                content: response
+                content: response,
+                pageFetchError: false,
             });
+        }).catch((e) => {
+            this.setState({
+                isLoaded: false,
+                content: null,
+                pageFetchError: true,
+            })
         });
     }
 
@@ -50,6 +59,10 @@ export default class Page extends React.Component {
                 escapeHtml={false}
             />);
         } else {
+            if (this.state.pageFetchError) {
+                return <NoMatch />;
+            }
+
             return null;
         }
     }
