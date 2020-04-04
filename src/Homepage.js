@@ -155,12 +155,12 @@ export default class Homepage extends React.Component {
                     defaultActiveKey={'wk-' + this.durationInfo.currentWeek}
                 >
                   <Row>
-                    <Col sm={2}>
-                      <Nav variant="pills" className="flex-column">
+                    <Col md={3} xl={2}>
+                      <Nav id="section-nav-links" variant="pills" className="flex-column">
                         { navLinks }
                       </Nav>
                     </Col>
-                    <Col sm={10}>
+                    <Col md={9} xl={10}>
                       <Tab.Content>
                         { navTabs }
                       </Tab.Content>

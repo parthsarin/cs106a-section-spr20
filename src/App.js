@@ -18,6 +18,7 @@ import {
 import Page from './Page';
 import Homepage from './Homepage';
 import Links from './Links';
+import NoMatch from './NoMatch';
 
 function App() {
   return (
@@ -53,9 +54,10 @@ function App() {
                 }
               }
             />
-            <Route path="/">
+            <Route exact path="/">
               <Homepage />
             </Route>
+            <Route path="*" status={404} component={NoMatch} />
           </Switch>
         </Container>
       </Router>

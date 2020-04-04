@@ -19,6 +19,14 @@
     color: rgb(127, 49, 148);
 }
 
+@media (max-width: 768px) {
+  #section-nav-links {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 /* NO MATCH */
 .notfound {
   width: 100%;
