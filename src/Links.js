@@ -12,6 +12,7 @@ const educationItems = [
 ];
 
 const pythonItems = [
+    `[A Conversation with the Creator of Python](https://drive.google.com/file/d/1cIFVaiN2xosLusZoMkXt44pm-buN9lIT/view?usp=sharing) with myself, Michael Cooper, and the creator of Python, Guido van Rossum.`,
     `[PEP 20: The Zen of Python](https://www.python.org/dev/peps/pep-0020/) by Tim Peters`,
     `[PEP 8: Python's Style Guide](https://pep8.org/) originally written by Guido van Rossum, compiled by Kenneth Rietz`,
     `[Learn python3 in Y minutes](https://learnxinyminutes.com/docs/python/) by Louie Dinh`,

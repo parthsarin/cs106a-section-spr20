@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Col, Row, Tab, Nav } from 'react-bootstrap';
+import { Button, Col, Row, Tab, Modal, Nav } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 
 import moment from 'moment';
@@ -35,7 +35,8 @@ export default class Homepage extends React.Component {
 
         this.state = {
             sectionContentLoaded: false,
-            sectionContent: null
+            sectionContent: null,
+            fullInstructionsShowing: false
         }
     }
 
@@ -143,15 +144,34 @@ export default class Homepage extends React.Component {
                     <Col className="align-self-center">
                         <h1>CS 106A: Programming Methodologies</h1>
                         <p className="lead">
-                        Discussion Section<br />
-                        {/*Join URL:&nbsp;
+                        Discussion Section | Thursday, 5:30pm Pacific<br />
+                        Join URL:&nbsp;
                         <a href="https://stanford.zoom.us/j/901970176">
                             https://stanford.zoom.us/j/901970176
-                        </a>*/}
+                        </a>&nbsp;
+                        (<Button 
+                            variant="link" 
+                            id="showFullInstructions"
+                            className="lead"
+                            onClick={
+                                () => this.setState({ 
+                                    fullInstructionsShowing: true 
+                                })
+                            }
+                        >
+                            Show Full Zoom Invitation
+                        </Button>)
                         </p>
-
                     </Col>
                 </Row>
+
+                <FullInstructionsModal
+                    show={this.state.fullInstructionsShowing}
+                    onHide={
+                        () => this.setState({ fullInstructionsShowing: false })
+                    }
+                />
+
                 <h2 className="mt-3">Schedule</h2>
                 <p className="text-muted">
                     Over the course of the quarter, I'll upload resources from
@@ -177,4 +197,53 @@ export default class Homepage extends React.Component {
             </div>
         );
     }
+}
+
+function FullInstructionsModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="full-zoom-instructions"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="full-zoom-instructions">
+          Zoom Invitation
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p>
+            Topic: CS 106A Section (Parth)<br />
+            Time: This is a recurring meeting Meet anytime
+        </p>
+        <p>
+            Join from PC, Mac, Linux, iOS or Android:&nbsp; 
+            https://stanford.zoom.us/j/901970176
+        </p>
+        <p>
+            Or iPhone one-tap (US Toll):&nbsp; 
+            +18333021536,,901970176# or +16507249799,,901970176#
+        </p>
+        <p>Or Telephone:</p>
+        <p style={{marginLeft: 20 + 'px'}}>
+            Dial:&nbsp; 
+            +1 650 724 9799 (US, Canada, Caribbean Toll)&nbsp; 
+            or +1 833 302 1536 (US, Canada, Caribbean Toll Free)
+        </p>
+        <p style={{marginLeft: 20 + 'px'}}>
+            Meeting ID: 901 970 176<br />
+            International numbers available:&nbsp; 
+            https://stanford.zoom.us/u/acHmFILIZT
+        </p>
+        <p style={{marginLeft: 20 + 'px'}}>
+            Meeting ID: 901 970 176<br />
+            SIP: 901970176@zoomcrc.com
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
 }
