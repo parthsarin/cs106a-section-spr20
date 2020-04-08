@@ -191,7 +191,7 @@ export default class Homepage extends React.Component {
                       </Nav>
                     </Col>
                     <Col md={9} xl={10}>
-                      <Tab.Content>
+                      <Tab.Content className="section-summary">
                         { navTabs }
                       </Tab.Content>
                     </Col>

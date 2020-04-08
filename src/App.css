@@ -8,6 +8,13 @@ h2, h3, h4, blockquote {
   margin-top: 30px !important;
 }
 
+.section-summary h2, .section-summary h3, .section-summary h4, 
+.section-summary blockquote {
+  /* Correct the styling for the section summaries. */
+  margin-top: 0px !important;
+}
+
+
 /* NAVBAR */
 .navbar-theme {
     background: rgb(127, 49, 148);
