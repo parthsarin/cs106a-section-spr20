@@ -32,7 +32,7 @@ function App() {
           </Nav>
         </Navbar>
 
-        <Container className="mt-2">
+        <Container className="mt-3">
           <Switch>
             <Route
               path="/syllabus"

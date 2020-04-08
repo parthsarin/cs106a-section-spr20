@@ -138,21 +138,20 @@ export default class Homepage extends React.Component {
         return (
             <div className="home">
                 <Row>
-                    <Col md={2} className="d-none d-md-block align-self-center">
+                    <Col md={2} className="d-none d-md-block align-self-center text-center">
                         <img id="logo" src={logo} alt="Stanford Logo" />
                     </Col>
-                    <Col className="align-self-center">
+                    <Col md={10} className="align-self-center">
                         <h1>CS 106A: Programming Methodologies</h1>
-                        <p className="lead">
+                        <div className="lead">
                         Discussion Section | Thursday, 5:30pm Pacific<br />
                         Join URL:&nbsp;
                         <a href="https://stanford.zoom.us/j/901970176">
                             https://stanford.zoom.us/j/901970176
-                        </a>&nbsp;
-                        (<Button 
+                        </a><br />
+                        <Button 
                             variant="link" 
-                            id="showFullInstructions"
-                            className="lead"
+                            className="lead-btn-link align-baseline p-0 m-0"
                             onClick={
                                 () => this.setState({ 
                                     fullInstructionsShowing: true 
@@ -160,8 +159,12 @@ export default class Homepage extends React.Component {
                             }
                         >
                             Show Full Zoom Invitation
-                        </Button>)
-                        </p>
+                        </Button> | 
+                        Contribute to our&nbsp;
+                        <a href="https://open.spotify.com/playlist/1pn8cUoKsLlOfX7WEEARz4?si=tOdALf44SAOcCvW6P7M5Qw">
+                        Spotify Playlist
+                        </a>!
+                        </div>
                     </Col>
                 </Row>
 
