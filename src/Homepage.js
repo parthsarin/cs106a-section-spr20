@@ -122,7 +122,7 @@ export default class Homepage extends React.Component {
 
             let tabContent;
             if (sectionMarkdown) {
-                tabContent = <ReactMarkdown source={sectionMarkdown} />;
+                tabContent = <ReactMarkdown source={sectionMarkdown} escapeHtml={false} />;
             } else {
                 tabContent = <h3>Nothing here yet!</h3>;
             }
