@@ -17,11 +17,11 @@
 
 Today we'll start off with some section logistics. We'll talk about the purpose of 106A section, modifications due to online learning, assignments and IGs. Then, I'll tell you you a little bit more about me and we'll all get a chanace to introduce ourselves. Time permitting, we might even play a fun game!
 
-Then, we'll talk about some of the things you've learned in lecture so far, focusing on **Karel** (who we're going to leave behind soon...! Sad...). 
+Then, we'll talk about some of the things you've learned in lecture so far and will work through a Karel problem. 
 
-Karel is a robot that lives in a world with walls and beepers. Karel can move in this world, has some limited observation abilities, and can interact with the world.
+Whether or not we review Karel in section, I'll leave some notes here about them anyways. Karel is a robot that lives in a world with walls and beepers. Karel can move in this world, has some limited observation abilities, and can interact with the world.
 
-We'll discuss the following Karel methods:
+Here are some of the most important Karel methods:
 ```python
 from karel.stanfordkarel import * # Imports the Karel library
 

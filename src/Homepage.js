@@ -163,7 +163,7 @@ export default class Homepage extends React.Component {
                         Contribute to our&nbsp;
                         <a href="https://open.spotify.com/playlist/1pn8cUoKsLlOfX7WEEARz4?si=tOdALf44SAOcCvW6P7M5Qw">
                         Spotify Playlist
-                        </a>!
+                        </a>! | <a href="https://forms.gle/pZV7mmhf7UHeJiXAA">Feedback Form</a>
                         </div>
                     </Col>
                 </Row>
@@ -217,13 +217,40 @@ function FullInstructionsModal(props) {
       </Modal.Header>
       <Modal.Body>
         <p>
-            Topic: CS 106A Section (Parth)<br />
-            Time: This is a recurring meeting Meet anytime
+            Topic: Parth Sarin&#39;s CS 106A Section<br />
+            Time: Apr 16, 2020 05:30 PM Pacific Time (US and Canada)
+        </p>
+        <p style={{marginLeft: 20+'px'}}>
+            Every week on Thu, until Jun 4, 2020, 8 occurrence(s)</p>
+        <p style={{marginLeft: 20+'px'}}>
+            Apr 16, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            Apr 23, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            Apr 30, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            May 7, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            May 14, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            May 21, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            May 28, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            Jun 4, 2020 05:30 PM</p>
+        <p style={{marginLeft: 20+'px'}}>
+            Please download and import the following iCalendar (.ics) files to your calendar system.</p>
+        <p style={{marginLeft: 20+'px'}}>
+            Weekly: 
+            <a href="https://stanford.zoom.us/meeting/tJQsfu6orzwsC15D3YiJSXRIee18Hw4Lhw/ics?icsToken=98tyKuCorzItGtWStl39Y7UvA9ribOH2kVIf_4cOpRbPMBhhSwbzZ7pqJeZTGM-B">
+                https://stanford.zoom.us/meeting/tJQsfu6orzwsC15D3YiJSXRIee18Hw4Lhw/ics?icsToken=98tyKuCorzItGtWStl39Y7UvA9ribOH2kVIf_4cOpRbPMBhhSwbzZ7pqJeZTGM-B
+            </a>
         </p>
         <p>
             Join from PC, Mac, Linux, iOS or Android:&nbsp; 
-            https://stanford.zoom.us/j/901970176
+            https://stanford.zoom.us/j/901970176?pwd=[REDACTED]
         </p>
+        <p>&nbsp; &nbsp; Password: <strong>REDACTED</strong></p>
         <p>
             Or iPhone one-tap (US Toll):&nbsp; 
             +18333021536,,901970176# or +16507249799,,901970176#
@@ -236,12 +263,14 @@ function FullInstructionsModal(props) {
         </p>
         <p style={{marginLeft: 20 + 'px'}}>
             Meeting ID: 901 970 176<br />
+            Password: <strong>REDACTED</strong><br />
             International numbers available:&nbsp; 
             https://stanford.zoom.us/u/acHmFILIZT
         </p>
         <p style={{marginLeft: 20 + 'px'}}>
             Meeting ID: 901 970 176<br />
             SIP: 901970176@zoomcrc.com
+            Password: <strong>REDACTED</strong>
         </p>
       </Modal.Body>
       <Modal.Footer>
