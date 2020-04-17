@@ -7,7 +7,13 @@
             Slides (<a href="https://drive.google.com/open?id=1zjFOxPsd6Booqz9rZ3-rpuysZ7YOC5B8">full</a> / <a href="https://drive.google.com/open?id=1KGHfFp9QxZnlNvHWP0ddIQDrc-svRAJc">condensed</a>)
         </span>
         <span class="card-link">
+            <a href="https://drive.google.com/open?id=1qoTHqKBGHm7zr1gPxWkahYBu_yYWJjYp">&#128466; Section Whiteboard</a>
+        </span>
+        <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section1/section1.html">&#128221; Section Handout</a>
+        </span>
+        <span class="card-link">
+            <a href="http://web.stanford.edu/class/cs106a/section/section1/section1-soln.html">&#128161; Section Solutions</a>
         </span>
         <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section1/Section1.zip">&#128105;&#127998;&#8205;&#128187; Starter Code</a>
@@ -15,11 +21,12 @@
     </div>
 </div>
 
-Today we'll start off with some section logistics. We'll talk about the purpose of 106A section, modifications due to online learning, assignments and IGs. Then, I'll tell you you a little bit more about me and we'll all get a chanace to introduce ourselves. Time permitting, we might even play a fun game!
+Today we'll start off with some section logistics. We'll talk about the purpose of 106A section, modifications due to online learning, assignments and IGs. Then, I'll tell you you a little bit more about me and we'll all get a chanace to introduce ourselves.
 
-Then, we'll talk about some of the things you've learned in lecture so far and will work through a Karel problem. 
+Looks like most of you are feeling a-ok with a few people tired, sad, or ambivalent. I hope CS106A Section brightened your day just a little bit...! It certainly brightened my day. &#10084;&#65039;
 
-Whether or not we review Karel in section, I'll leave some notes here about them anyways. Karel is a robot that lives in a world with walls and beepers. Karel can move in this world, has some limited observation abilities, and can interact with the world.
+#### Karel Review
+We briefly reviewed Karel after the introductions (folks, I'm sad that Karel is leaving...!). Karel is a robot that lives in a world with walls and beepers. Karel can move in this world, has some limited observation abilities, and can interact with the world.
 
 Here are some of the most important Karel methods:
 ```python
@@ -65,3 +72,19 @@ if __name__ == '__main__':
     run_karel_program() # Starts Karel, and loads the main function into Karel's
                         # memory.
 ```
+
+#### Hospital Karel
+After that, we discussed the **Hospital Karel problem**. See the section handout for a more detailed description of the problem. We decided to break the problem into two pieces: moving between hospitals and building a hospital. 
+
+We talked about how moving between hospitals could use a `while` loop and we wrote the following preliminary code:
+```python
+while front_is_clear():
+    if beepers_present():
+        build_hospital()
+```
+
+Then, the `build_hospital` function could call a `build_column` function to build each of the three columns and re-orient Karel in between the calls.
+
+The section solutions are posted at: <http://web.stanford.edu/class/cs106a/section/section1/section1-soln.html>.
+
+> With love and &#129412;s by @psarin
