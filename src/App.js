@@ -28,6 +28,7 @@ function App() {
           <Nav className="ml-auto">
             <RouterNavLink to="/">Home</RouterNavLink>
             <RouterNavLink to="/syllabus">Syllabus</RouterNavLink>
+            <RouterNavLink to="/norms">Discussion Norms</RouterNavLink>
             <RouterNavLink to="/links">Fun Links</RouterNavLink>
           </Nav>
         </Navbar>
@@ -39,6 +40,14 @@ function App() {
               render={
                 (props) => {
                   return <Page pageRoute="Syllabus" {...props} />
+                }
+              }
+            />
+            <Route
+              path="/norms"
+              render={
+                (props) => {
+                  return <Page pageRoute="DiscussionNorms" {...props} />
                 }
               }
             />

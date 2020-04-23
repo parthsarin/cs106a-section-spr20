@@ -47,6 +47,14 @@ h2, h3, h4, blockquote {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
+
+  #subtitle-header {
+    font-size: 12pt !important;
+  }
+
+  #subtitle-header button {
+    font-size: 12pt !important;
+  }
 }
 
 /* NO MATCH */

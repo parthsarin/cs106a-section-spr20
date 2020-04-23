@@ -143,7 +143,7 @@ export default class Homepage extends React.Component {
                     </Col>
                     <Col md={10} className="align-self-center">
                         <h1>CS 106A: Programming Methodologies</h1>
-                        <div className="lead">
+                        <div className="lead" id="subtitle-header">
                         Discussion Section | Thursday, 5:30pm Pacific<br />
                         Join URL:&nbsp;
                         <a href="https://stanford.zoom.us/j/901970176">
@@ -242,9 +242,7 @@ function FullInstructionsModal(props) {
             Please download and import the following iCalendar (.ics) files to your calendar system.</p>
         <p style={{marginLeft: 20+'px'}}>
             Weekly: 
-            <a href="https://stanford.zoom.us/meeting/tJQsfu6orzwsC15D3YiJSXRIee18Hw4Lhw/ics?icsToken=98tyKuCorzItGtWStl39Y7UvA9ribOH2kVIf_4cOpRbPMBhhSwbzZ7pqJeZTGM-B">
-                https://stanford.zoom.us/meeting/tJQsfu6orzwsC15D3YiJSXRIee18Hw4Lhw/ics?icsToken=98tyKuCorzItGtWStl39Y7UvA9ribOH2kVIf_4cOpRbPMBhhSwbzZ7pqJeZTGM-B
-            </a>
+            <strong>REDACTED</strong>
         </p>
         <p>
             Join from PC, Mac, Linux, iOS or Android:&nbsp; 
