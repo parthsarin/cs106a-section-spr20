@@ -6,15 +6,15 @@
         <span class="card-link">
             Slides (<a href="https://drive.google.com/open?id=1IXpXkVh3DCMMTaqZy4q_CazC6t90g5gm">full</a> / <a href="https://drive.google.com/open?id=1kQ5CGqjlAlbnylLpp7v-tH72JF5mxG_h">condensed</a>)
         </span>
-        <!-- <span class="card-link">
-            <a href="">&#128466; Section Whiteboard</a>
-        </span> -->
+        <span class="card-link">
+            <a href="https://drive.google.com/file/d/1G1ygqVOSG2zi_l2UEQJ8KJubPs_PZzE_/view?usp=sharing">&#128466; Section Whiteboard</a>
+        </span>
         <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section2/section2.html">&#128221; Section Handout</a>
         </span>
-        <!-- <span class="card-link">
+        <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section2/section2-soln.html">&#128161; Section Solutions</a>
-        </span> -->
+        </span>
         <span class="card-link">
             <a href="https://drive.google.com/open?id=1k3B9djMdFPox7gxVysigpcvGG8eKoWuC">&#128187; Starter Code</a>
         </span>
