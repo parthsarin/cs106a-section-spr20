@@ -12,9 +12,9 @@
         <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section5/section5.html">&#128221; Section Handout</a>
         </span>
-       <!--  <span class="card-link">
+        <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section5/section5-soln.html">&#128161; Section Solutions</a>
-        </span> -->
+        </span>
         <span class="card-link">
             <a href="http://web.stanford.edu/class/cs106a/section/section5/section5.zip">&#128187; Starter Code</a>
         </span>
