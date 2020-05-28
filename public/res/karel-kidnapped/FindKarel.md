@@ -1,0 +1,36 @@
+# Find Karel
+Great job! You figured out that Brahm is the kidnapper! There's just one more step. Somehow there's a word hidden in these letters...
+
+```md
+rbwnfqfittiovyzgzheusgxzsyeaendqqtbiwqoxoxliqviuebiz
+bmzrvrjeykwyphgqvnhngjexqasskapvvacgaggvpohsldjqyukq
+rdvbomfpgjvtmfhljumcldtfpvnljfxhtkcwhSshnbyhpwgwosme
+zoxvuochokhtqpyjwaktkbyubutcpxghtkwkomlbkuitcojsinxv
+bsoxtgbqepvTpaclnzmpdffjbcfpgxuufomnfvlkmatnkljyurjv
+wgcdwnajbzolmjvhjcpufixgvkiidkdzcpezkspeqjkyvxngrshi
+zvjnfmcpfuftsipowmvmiqeywwuxegwwgozlehfornutxucgxrlj
+xeehiwxjchhtjofrwxwhlfznxwqnjgyccozrqlpdynfilwdEulvr
+ltrkyrtuiokssmdsyrbjhxjvctsowsrocxqzahjfyuacttmaotij
+qmurjstfdkekisgtiicmilpordlzqczscyznlnwxvidfvrhstjuk
+qpslhrxtunwjslbvfbgqwgtfihtxwtqshglxzvsmokkbhmystlth
+qnyddhmtcpovunjsqepnzkjnzeavdqhppbmjaAifcpkgxlllhnse
+ckhgbqunhtisgdhmcjwpggkddpswzqvenplptodavohzrzynzdec
+joqpgdwuplpwajpiswvqfnwMifxobmptetmtqsoeprxkoodseang
+huzmiwcouurgnvvnlmmfquttwhahfarsdgflgwrekvwdypkukixx
+titinesxyyfodszprfrqivpwbuarzdyrgmgtzjectnccbylnvxcd
+dwnwezjkivplmzpufnenhssouxscclqkvgfyojquxebiobTdwUvb
+hqfxradjpgwylxibkdnjzibnppehpkymdiumkncbmhNqmxkddqbv
+gafokkdfoerboxghnhhsbjhhsyvfqztwxcljssnfhdbxgkbjbntm
+qpublxmiccpvqwwsnmsgpariqflgsujtqskznbxybywhpypjnjrr
+akchbudfqxaypfflkmlbstyyyltiwpxxfrvyNlatbzyxtddwllns
+yfmdxlvydErwdowwegkjsbomhsLbthtwwwhrklSijvbxzmncuwhu
+mnffraudbelgcbxmxtqouozxxpazbrvzypafrzplivfstdgxrpag
+zodirofkfkromfgaemaibveajnsrjwnaiyktgwcrkdejvjwrihxr
+rricpwjqtbywgdlrxuarnfwhcpkdfsacgasdfhaosiubgoiuashd
+```
+
+The word is actually Karel's *location*. Figure it out to finish the puzzle!
+
+**Once you know where Karel is, use the Ask for Help button to let me know and I'll tell you where to proceed next.**
+
+> With love and &#129412;s by @psarin

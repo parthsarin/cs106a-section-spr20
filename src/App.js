@@ -51,6 +51,30 @@ function App() {
                 }
               }
             />
+            <Route
+              path="/find-kidnapper"
+              render = {
+                (props) => {
+                  return <Page pageRoute="karel-kidnapped/FindKidnapper" />
+                }
+              }
+            />
+            <Route
+              path="/kidnapper/brahm"
+              render = {
+                (props) => {
+                  return <Page pageRoute="karel-kidnapped/FindKarel" />
+                }
+              }
+            />
+            <Route
+              path="/steam-tunnels"
+              render = {
+                (props) => {
+                  return <Page pageRoute="karel-kidnapped/SteamTunnels" />
+                }
+              }
+            />
             <Route path="/links">
               <Links />
             </Route>
