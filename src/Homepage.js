@@ -16,9 +16,9 @@ export default class Homepage extends React.Component {
     constructor(props) {
         super(props);
 
-        // Section is from weeks 2 to 10
+        // Section is from weeks 2 to 9
         const firstWeek = 2;
-        const lastWeek = 10;
+        const lastWeek = 9;
 
         // Get current week
         const weekOne = moment("2020-04-06"); // first day of quarter

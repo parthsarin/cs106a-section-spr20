@@ -16,7 +16,6 @@ Here's what I'm going to do to make section as accessible and normal as possible
 - Before every section, I'll post links to resources we'll use during the section including PDFs of any slides and a ZIP file containing any code that we'll run. These are to help you follow along during section.
 - During section, as much as possible, I'll try to use captioning software to put a live transcription of what I'm saying on the screen. This software tends not to be very accurate with my voice, but hopefully it'll be helpful!
 - After every section, I'll post a recap on the homepage of this website, in the appropriate tab of the Schedule. Here's the link to the homepage: <https://dev.parthsarin.com/section/#/>.
-- I'll also post a link to a transcribed recording of section for your reference.
 - The CS 106A course staff has a tremendous amount of sympathy for you right now. There's a lot going on that's more important than 106A and I get that. I'll keep this in mind as much as possible. &#128522;
 - Similarly, I also understand that everyone has different priorities and CS 106A might not be at the top of that list, especially since classes are S/NC this quarter. I want to work with everyone to develop a course strategy that works best for them.
 
