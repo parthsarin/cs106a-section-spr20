@@ -10,13 +10,13 @@
             <a href="https://drive.google.com/open?id=1qoTHqKBGHm7zr1gPxWkahYBu_yYWJjYp">&#128466; Section Whiteboard</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section1/section1.html">&#128221; Section Handout</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section1/section1.html">&#128221; Section Handout</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section1/section1-soln.html">&#128161; Section Solutions</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section1/section1-soln.html">&#128161; Section Solutions</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section1/Section1.zip">&#128105;&#127998;&#8205;&#128187; Starter Code</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section1/Section1.zip">&#128105;&#127998;&#8205;&#128187; Starter Code</a>
         </span>
     </div>
 </div>
@@ -85,6 +85,6 @@ while front_is_clear():
 
 Then, the `build_hospital` function could call a `build_column` function to build each of the three columns and re-orient Karel in between the calls.
 
-The section solutions are posted at: <http://web.stanford.edu/class/cs106a/section/section1/section1-soln.html>.
+The section solutions are posted at: <https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section1/section1-soln.html>.
 
 > With love and &#129412;s by @psarin

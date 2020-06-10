@@ -10,13 +10,13 @@
             <a href="https://drive.google.com/file/d/1G1ygqVOSG2zi_l2UEQJ8KJubPs_PZzE_/view?usp=sharing">&#128466; Section Whiteboard</a>
         </span> -->
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section5/section5.html">&#128221; Section Handout</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section5/section5.html">&#128221; Section Handout</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section5/section5-soln.html">&#128161; Section Solutions</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section5/section5-soln.html">&#128161; Section Solutions</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section5/section5.zip">&#128187; Starter Code</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section5/section5.zip">&#128187; Starter Code</a>
         </span>
         <span class="card-link">
             <a href="https://us.edstem.org/courses/325/lessons/1274/">&#128105;&#127998;&#8205;&#128187; Ed Project</a>

@@ -6,14 +6,14 @@
     <div class="card-body">
         <h5 class="card-title">Links</h5>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section8/section8.html" class="disabled">&#128221; Section Handout</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section8/section8.html" class="disabled">&#128221; Section Handout</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section8/Section8.zip">&#128187; Starter Code</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section8/Section8.zip">&#128187; Starter Code</a>
         </span>
-        <!-- <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section8/section8-soln.html">&#128161; Section Solutions</a>
-        </span> -->
+        <span class="card-link">
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section8/section8-soln.html">&#128161; Section Solutions</a>
+        </span>
     </div>
 </div>
 

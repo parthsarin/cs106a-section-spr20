@@ -7,13 +7,13 @@
             Slides (<a href="https://drive.google.com/open?id=1KWiocBLJsfaG7BEPHb5nMCsSGhfgTFe9">full</a> / <a href="https://drive.google.com/open?id=1tenOqlmx2nXhokRyNzsIOc7UzUcN67jP">condensed</a>)
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section4/section4.html">&#128221; Section Handout</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section4/section4.html">&#128221; Section Handout</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section4/section4-soln.html">&#128161; Section Solutions</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section4/section4-soln.html">&#128161; Section Solutions</a>
         </span>
         <span class="card-link">
-            <a href="http://web.stanford.edu/class/cs106a/section/section4/Section4.zip">&#128187; Starter Code</a>
+            <a href="https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1206/section/section4/Section4.zip">&#128187; Starter Code</a>
         </span>
         <span class="card-link">
             <a href="https://drive.google.com/open?id=1lKqXkBIUBjPtkHMCxUJXhYhayqq0nJZJ">&#128187; Partially Completed News Ticker</a>
